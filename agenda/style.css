@@ -1,0 +1,79 @@
+.minggu {
+	color: #FF0000;
+}
+
+.jumat {
+	color: #006600;
+}
+
+.biasa, .minggu, .jumat{
+	text-align:center;
+}
+
+#tgl_akhir{
+	background:#999;
+}
+
+#tgl_awal{
+	background: #CCC;
+}
+
+#tgl_skr{
+	background:#00FF00;
+}
+
+#tgl_agenda{
+	background: #FFCC00;
+}
+
+#tgl_akhir, #tgl_awal{
+	font-size:10px;
+	font-weight:normal;
+	font-style:italic;
+}
+
+td{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	background:#FFFFFF;
+}
+
+
+h3{
+margin:0;
+}#kalender {
+	float: left;
+	width: 375px;
+}
+#clear {
+	clear: both;
+}
+#agenda {
+	float: left;
+	width: 300px;
+	height: 200px;
+	padding-left: 20px;
+}
+#utama {
+	width: 700px;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+
+li{
+	color: #FF0000;
+	font-style:italic;
+	list-style: disc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#tanggal_agenda{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: #FF0000;
+}

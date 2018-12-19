@@ -1,0 +1,1390 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url(/images/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #fefefe;
+}
+#wrapper {
+	width: 1024px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 134px;
+	width: 1024px;
+	position: relative;
+	padding-bottom: 28px;
+	background-image: url(/images/12years_01.gif);
+	background-repeat: no-repeat;
+
+}
+#header h1 {
+	float: left;
+	height: 134px;
+	width: 157px;
+	position: relative;
+}
+#menu {
+	float: left;
+	width: 867px;
+	position: relative;
+	height: 33px;
+	padding-top: 101px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 33px;
+	vertical-align: middle;
+}
+#menu h2 {
+	float: left;
+}
+#menu h2 a {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	padding-right: 11px;
+	padding-left: 11px;
+	text-decoration: none;
+}
+#menu h2 a:hover {
+	color: #000000;
+	background-color: #cac6bb;
+}
+#menu h3 {
+	float: left;
+}
+#menu h3 a {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	float: left;
+	padding-right: 11px;
+	padding-left: 11px;
+	text-decoration: none;
+	background-color: #cac6bb;
+}
+#menu h3 a:hover {
+	color: #FFFFFF;
+}
+#menu h4 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#menu img {
+	padding-left: 10px;
+}
+.clear {
+	clear: both;
+}
+#kiri {
+	float: left;
+	width: 763px;
+	position: relative;
+	padding-right: 18px;
+}
+#package {
+	width: 763px;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 20px
+}
+#package h1 {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration:none;
+	vertical-align: middle;
+	height: 24px;
+	width: 755px;
+	position: relative;
+	background-image: url(/images/bg1.jpg);
+	padding-left: 8px;
+}
+#package a,
+#package a:visited {
+text-decoration:none;
+}
+
+#package_dalam {
+	background-color: none;
+	width: 763px;
+	position: relative;
+	
+}
+#package_dalam h2 {
+	float: left;
+	padding-right: 29px;
+	padding-left: 29px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-align: center;
+}
+#package_dalam h2 a {
+	color: #666666;
+	text-decoration: none;
+}
+#package_dalam h2 a:hover {
+	color: #000000;
+}
+#articles {
+	float: left;
+	width: 377px;
+	position: relative;
+	margin-right: 9px;
+	margin-bottom: 20px;
+}
+#articles h1, #quick h1 {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: middle;
+	height: 24px;
+	width: 370px;
+	position: relative;
+	background-image: url(/images/bg3.jpg);
+	background-repeat: no-repeat;
+	padding-left: 7px;
+}
+#quick h1 a {
+	color: #000000;
+	text-decoration: none;
+}
+#quick h1 a:hover {
+	color: #ff7e00;
+}
+#articles_dalam, #quick_dalam {
+	background-color: #fefefe;
+	background-image: url(/images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	width: 341px;
+	position: relative;
+	padding-top: 10px;
+	padding-right: 18px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+}
+#articles_dalam li, #quick_dalam li {
+	background-image: url(/images/panah1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	list-style-type: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	padding-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#articles_dalam li a, #quick_dalam li a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#articles_dalam li a:hover, #quick_dalam li a:hover {
+	color: #666666;
+}
+.style1 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ff7e00;
+}
+#quick {
+	float: left;
+	width: 377px;
+	position: relative;
+	margin-bottom: 20px;
+}
+#portfolio {
+	width: 763px;
+	position: relative;
+	padding-bottom: 20px;
+}
+#portfolio h1 {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #000000;
+	vertical-align: middle;
+	height: 24px;
+	width: 755px;
+	position: relative;
+	background-image: url(/images/bg4.jpg);
+	padding-left: 8px;
+}
+#portfolio_dalam {
+	background-color: #fefefe;
+	width: 763px;
+	position: relative;
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+.thumbnail_portfolio {
+	float: left;
+	width: 210px;
+	padding-right: 22px;
+	padding-left: 22px;
+	position: relative;
+	padding-bottom: 30px;
+}
+.thumbnail_portfolio h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+}
+.thumbnail_portfolio h2 a {
+	color: #587a9f;
+	text-decoration: none;
+}
+.thumbnail_portfolio h2 a:hover {
+	color: #ff7e00;
+}
+.thumbnail_portfolio h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff7e00;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	margin-bottom: 4px;
+}
+.thumbnail_portfolio h3 a {
+	color: #ff7e00;
+	text-decoration: none;
+}
+.thumbnail_portfolio h3 a:hover {
+	color: #587a9f;
+}
+#kanan {
+	float: left;
+	width: 243px;
+	position: relative;
+}
+#services, #livechat, #right_slide {
+	width: 243px;
+	position: relative;
+	margin-bottom: 15px;
+}
+#services h1 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	height: 29px;
+	width: 234px;
+	position: relative;
+	background-image: url(/images/bg5.gif);
+	background-repeat: no-repeat;
+	line-height: 29px;
+	vertical-align: middle;
+	padding-left: 9px;
+}
+#services_dalam {
+	width: 211px;
+	position: relative;
+	background-image: url(/images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	padding-left: 9px;
+	padding-right: 23px;
+	background-color: #fefefe;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.services_class {
+	background-image: url(/images/bttn.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 193px;
+	position: relative;
+	padding-left: 18px;
+	padding-bottom: 15px;
+}
+.services_class h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff7e00;
+	float: left;
+	width: 143px;
+	position: relative;
+	line-height: 23px;
+	vertical-align: middle;
+	height: 23px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+}
+.services_class h2 a {
+	color: #ff7e00;
+	text-decoration: none;
+}
+.services_class h2 a:hover {
+	color: #587a9f;
+}
+.services_class h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	float: left;
+	width: 50px;
+	position: relative;
+	text-align: right;
+	line-height: 23px;
+	vertical-align: middle;
+	height: 23px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+}
+.services_class h3 a {
+	color: #587a9f;
+	text-decoration: none;
+}
+.services_class h3 a:hover {
+	color: #000000;
+}
+.services_class li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	list-style-type: none;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.services_class li a {
+	color: #000000;
+	text-decoration: none;
+}
+.services_class li a:hover {
+	color: #587a9f;
+}
+#livechat h1, #address h1, #right_slide h1 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	height: 24px;
+	width: 234px;
+	position: relative;
+	background-image: url(/images/bg6.gif);
+	background-repeat: no-repeat;
+	line-height: 24px;
+	vertical-align: middle;
+	padding-left: 9px;
+}
+#livechat_dalam {
+	width: 193px;
+	position: relative;
+	background-image: url(/images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	padding-left: 27px;
+	padding-right: 23px;
+	background-color: #fefefe;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+#livechat_dalam li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	list-style-type: none;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 163px;
+	padding-right: 15px;
+}
+#livechat_dalam h2 {
+	text-align: center;
+}
+#livechat_dalam h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	float: left;
+	width: 100px;
+	position: relative;
+}
+#livechat_dalam h4 {
+	text-align: right;
+	float: left;
+	width: 63px;
+	position: relative;
+}
+
+#right_slide_dalam {
+	width: 243px;
+	position: relative;
+	background-image: url(/images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #fefefe;
+}
+
+.slidebar
+{
+	text-align : center;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #000000;
+	height: 20px;
+/*	filter:alpha(opacity = 50);
+	opacity: 0.5;
+*/
+}
+#address {
+	width: 243px;
+	position: relative;
+}
+#address_dalam {
+	width: 193px;
+	position: relative;
+	background-image: url(/images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	padding-left: 27px;
+	padding-right: 23px;
+	background-color: #fefefe;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+#address_dalam a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#address_dalam a:hover {
+	color: #ff7e00;
+}
+#copyright {
+	width: 1024px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #bdcbd8;
+	position: relative;
+	height: 45px;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+#copyright h1 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+	width: 512px;
+	position: relative;
+}
+#copyright h2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+	width: 512px;
+	position: relative;
+	text-align: right;
+}
+
+/*css untuk template*/
+#middle {
+	background-color: #fefefe;
+	background-image: url(/images/content/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+	width: 1024px;
+}
+#kiri_template {
+	float: left;
+	width: 243px;
+	position: relative;
+	padding-right: 9px;
+	padding-bottom: 20px;
+}
+#menu_samping {
+	width: 243px;
+	position: relative;
+	margin-bottom: 15px;
+}
+#menu_samping h1 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	height: 24px;
+	width: 234px;
+	position: relative;
+	background-image: url(/images/bg6.gif);
+	background-repeat: no-repeat;
+	line-height: 24px;
+	vertical-align: middle;
+	padding-left: 9px;
+}
+#menu_samping_dalam {
+	width: 228px;
+	position: relative;
+	background-image: url(/images/bg2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	padding-left: 0px;
+	padding-right: 15px;
+	background-color: #fefefe;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+#menu_samping_dalam h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	background-image: url(/images/panah1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#menu_samping_dalam h2 a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#menu_samping_dalam h2 a:hover {
+	color: #ff8611;
+}
+#menu_samping_dalam h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff8611;
+	background-image: url(/images/panah1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#menu_samping_dalam h3 a {
+	color: #ff8611;
+	text-decoration: none;
+}
+#menu_samping_dalam h3 a:hover, #menu_samping_dalam h4 a:hover {
+	color: #587a9f;
+}
+#menu_samping_dalam h4 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(/images/content/bttn1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+}
+#menu_samping_dalam h4 a {
+	color: #000000;
+	text-decoration: none;
+}
+#menu_samping_dalam h5 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	background-image: url(/images/content/bttn1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+}
+#menu_samping_dalam h5 a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#menu_samping_dalam h5 a:hover {
+	color: #000000;
+}
+#tengah_template {
+	float: left;
+	width: 489px;
+	position: relative;
+	background-color: #fefefe;
+	margin-right: 17px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	line-height: 170%;
+	text-align: justify;
+	padding-right: 11px;
+	padding-left: 11px;
+}
+#tengah_template a, #kiri_perbandingan a {
+	color: #000000;
+}
+#tengah_template a:hover, #kiri_perbandingan a:hover {
+	color: #587a9f;
+}
+#tengah_template h1, #kiri_perbandingan h1 {
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	padding-bottom: 10px;
+	text-align: left;
+	line-height: 100%;
+}
+
+#tengah_template p {
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+#tengah_template li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.style2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff8611;
+}
+.style3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff8611;
+}
+#tengah_template li, #kiri_perbandingan li {
+	margin-left: 25px;
+}
+#kiri_perbandingan {
+	float: left;
+	width: 741px;
+	margin-right: 17px;
+	position: relative;
+	background-color: #fefefe;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	line-height: 180%;
+	text-align: justify;
+	padding-right: 11px;
+	padding-left: 11px;
+}
+
+/*css untuk sevices*/
+#web_design {
+	position: relative;
+	width: 489px;
+}
+#web_design li {
+	background-image: url(/images/content/panah.jpg);
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 25px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	vertical-align: middle;
+	width: 464px;
+	position: relative;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	padding-bottom: 10px;
+}
+#web_design li a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#web_design li a:hover {
+	color: #ff7e00;
+}
+#web_design h2 {
+	text-align: center;
+	float: left;
+	width: 228px;
+	position: relative;
+	padding-top: 5px;
+}
+#web_design_kanan {
+	float: left;
+	width: 236px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+}
+#web_design_kanan li {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(/images/panah1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px;
+	margin-left: 10px;
+	line-height: 130%;
+	border-bottom-style: none;
+	margin-top: 3px;
+	padding-top: 0px;
+	width: 206px;
+	padding-right: 15px;
+	margin-bottom: 3px;
+	padding-bottom: 0px;
+	text-align: left;
+}
+#web_design_kanan li a {
+	color: #000000;
+	text-decoration: none;
+}
+#paket {
+	width: 489px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d5d5d8;
+	position: relative;
+}
+#paket h2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+	height: 148px;
+	width: 258px;
+	position: relative;
+	background-image: url(/images/content/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	line-height: 150%;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #d5d5d8;
+	padding-top: 15px;
+	padding-left: 3px;
+	text-align: left;
+}
+#paket h3 {
+	float: left;
+	height: 152px;
+	width: 228px;
+	position: relative;
+}
+#paket li, #perbandingan li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	list-style-type: none;
+	margin: 0px;
+}
+#form_paket {
+	background-color: #e1e8f5;
+	width: 459px;
+	position: relative;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	padding-right: 16px;
+	padding-left: 14px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+#form_paket label, #form_contact label {
+	float: left;
+	width: 135px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	padding-left: 7px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#form_paket h4, #form_contact h4 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	float: left;
+	width: 25px;
+	position: relative;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#form_paket input, #form_paket textarea, #form_contact input, #form_contact textarea {
+	width: 272px;
+	border: 1px solid #FFFFFF;
+	position: relative;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+}
+#form_paket h5, #form_contact h5 {
+	float: left;
+	width: 272px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: normal;
+}
+#form_paket h5 input, #form_contact input {
+	width: 120px;
+	position: relative;
+}
+#form_paket_button {
+	width: 309px;
+	position: relative;
+	padding-left: 180px;
+	background-color: #e1e8f5;
+	padding-bottom: 20px;
+}
+#form_contact {
+	background-color: #e1e8f5;
+	width: 459px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	padding-right: 16px;
+	padding-left: 14px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+#form_contact a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#form_contact a:hover {
+	color: #ff7e00;
+}
+#form_contact_button {
+	width: 309px;
+	position: relative;
+	padding-left: 180px;
+	background-color: #e1e8f5;
+	padding-bottom: 20px;
+}
+#perbandingan {
+	width: 741px;
+	position: relative;
+	padding-top: 10px;
+}
+#perbandingan td {
+	padding-top: 2px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+}
+.style4 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #819bb9;
+}
+.style5 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+#form_perbandingan {
+	background-color: #e1e8f5;
+	width: 711px;
+	position: relative;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	padding-right: 16px;
+	padding-left: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#form_perbandingan label {
+	float: left;
+	width: 135px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	padding-left: 115px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#form_perbandingan h4 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+	float: left;
+	width: 25px;
+	position: relative;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#form_perbandingan input, #form_perbandingan textarea, #form_perbandingan select {
+	width: 272px;
+	border: 1px solid #FFFFFF;
+	position: relative;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+}
+#form_perbandingan h5 {
+	float: left;
+	width: 272px;
+	position: relative;
+}
+#form_perbandingan h5 input {
+	width: 120px;
+	position: relative;
+}
+#form_perbandingan_button {
+	width: 453px;
+	position: relative;
+	padding-left: 288px;
+	background-color: #e1e8f5;
+	padding-bottom: 20px;
+}
+
+/*css untuk portfolio*/
+#portfolio_content {
+	width: 741px;
+	position: relative;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #c9d1d4;
+	padding-bottom: 20px;
+	margin-bottom: 7px;
+	padding-top: 10px;
+}
+#portfolio_content a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#portfolio_content a:hover {
+	color: #ff7e00;
+}
+#portfolio_content h2 {
+	float: left;
+	width: 235px;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#portfolio_content_kanan {
+	float: left;
+	width: 466px;
+	position: relative;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+}
+.style6 {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+#page {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff7e00;
+	width: 741px;
+	position: relative;
+	text-align: right;
+}
+#page a {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	text-decoration: none;
+}
+#page a:hover {
+	color: #ff7e00;
+}
+#portfolio_dalam_template {
+	background-color: #fefefe;
+	width: 741px;
+	position: relative;
+	padding-top: 20px;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 140%;
+	color: #587a9f;
+}
+#portfolio_dalam_template a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#portfolio_dalam_template a:hover {
+	color: #ff7e00;
+}
+#portfolio_dalam_template h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff7e00;
+}
+#portfolio_dalam_template h3 a {
+	color: #ff7e00;
+	text-decoration: none;
+}
+#portfolio_dalam_template h3 a:hover {
+	color: #587a9f;
+}
+.thumbnail_portfolio_dalam {
+	float: left;
+	width: 210px;
+	padding-right: 18px;
+	padding-left: 18px;
+	position: relative;
+	padding-bottom: 30px;
+}
+.thumbnail_portfolio_dalam h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+}
+.thumbnail_portfolio_dalam h2 a {
+	color: #587a9f;
+	text-decoration: none;
+}
+.thumbnail_portfolio_dalam h2 a:hover {
+	color: #ff7e00;
+}
+.thumbnail_portfolio_dalam h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff7e00;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	margin-bottom: 4px;
+}
+.thumbnail_portfolio_dalam h3 a {
+	color: #ff7e00;
+	text-decoration: none;
+}
+.thumbnail_portfolio_dalam h3 a:hover {
+	color: #587a9f;
+}
+
+/*css untuk articles*/
+#articles_content {
+	position: relative;
+	width: 489px;
+}
+#articles_content li {
+	background-image: url(/images/content/panah.jpg);
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 25px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	vertical-align: middle;
+	width: 464px;
+	position: relative;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	padding-bottom: 10px;
+}
+#articles_content li a {
+	color: #587a9f;
+	text-decoration: none;
+	font-weight: bold;
+}
+#articles_content li a:hover {
+	color: #ff7e00;
+}
+#articles_content h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(/images/panah1.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px;
+	margin-left: 10px;
+	line-height: 130%;
+	border-bottom-style: none;
+	margin-top: 3px;
+	padding-top: 0px;
+	padding-right: 15px;
+	margin-bottom: 3px;
+	padding-bottom: 0px;
+	text-align: left;
+}
+#articles_content h2 a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+}
+#articles_content h3 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	text-align: right;
+	font-style: italic;
+}
+#articles_content h3 a {
+	font-weight: normal;
+	color: #587a9f;
+	text-decoration: none;
+}
+#page_articles {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ff7e00;
+	width: 489px;
+	position: relative;
+	text-align: right;
+}
+#page_articles a {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+	text-decoration: none;
+}
+#page_articles a:hover {
+	color: #ff7e00;
+}
+
+/*css untuk search*/
+#content_search {
+	width: 489px;
+	position: relative;
+	padding-bottom: 20px;
+}
+#content_search h2 {
+	float: left;
+	width: 330px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+#content_search h3 {
+	float: left;
+	width: 110px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*css untuk career*/
+#career {
+	width: 489px;
+	position: relative;
+}
+#career ol {
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #587a9f;
+}
+#career li {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bdcbd8;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#career li a {
+	color: #587a9f;
+	text-decoration: none;
+}
+#career li a:hover {
+	color: #000000;
+}
+#career li li {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#career li li a {
+	color: #000000;
+	text-decoration: none;
+}
+#career li li a:hover {
+	color: #587a9f;
+}
+#career h2 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+#career h3 {
+	float: right;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+	color: #000000;
+}
+#career h3 a {
+	color: #000000;
+	text-decoration: none;
+}
+#career h3 a:hover {
+	color: #004DFD;
+}
+.style7 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #587a9f;
+}
+.style7 a {
+	color: #587a9f;
+	text-decoration: none;
+}
+.style7 a:hover {
+	color: #9BCD04;
+}
+#browse {
+	position: relative;
+	width: 500px;
+}
+#browse label {
+	float: left;
+	width: 130px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#browse h2 {
+	float: left;
+	width: 160px;
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#browse h3 {
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+	width: 210px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
